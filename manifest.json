@@ -1,0 +1,13 @@
+{
+  "name": "MyBudget",
+  "short_name": "MyBudget",
+  "description": "Gestisci entrate, uscite e obiettivi di risparmio.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f6f4",
+  "theme_color": "#123b2b",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}

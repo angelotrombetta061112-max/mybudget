@@ -1,0 +1,25 @@
+MYBUDGET - PRIMA VERSIONE
+
+CONTENUTO
+- index.html: app completa
+- manifest.json: impostazioni installazione PWA
+- service-worker.js: cache offline
+- icon.svg: icona
+
+COME PROVARLA
+1. Pubblica TUTTI i file mantenendo gli stessi nomi in un hosting statico HTTPS.
+2. Apri l'indirizzo HTTPS con Chrome su Android.
+3. Dal menu ⋮ di Chrome scegli "Installa app" oppure "Aggiungi a schermata Home".
+4. Apri MyBudget dalla nuova icona.
+
+DATI E PRIVACY
+I movimenti e gli obiettivi sono salvati nel localStorage del browser/dispositivo.
+Non vengono inviati a un server. Se cancelli i dati del sito o cambi dispositivo,
+potresti perderli: usa "Scarica backup" e conserva il file JSON in un luogo sicuro.
+Il CSV contiene i movimenti.
+
+NOTA
+Questa è una prima versione PWA di prova, non ancora pronta per la vendita.
+Prima di distribuirla a terzi servono test su più dispositivi, revisione sicurezza,
+accessibilità, gestione robusta dei backup e verifica delle regole fiscali/legali
+applicabili. L'installazione PWA richiede hosting HTTPS (o localhost).
